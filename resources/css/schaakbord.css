@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(9, 5, 0);
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    background-image: url("../images/f9b43c969ae61b647a19ae1523a65f00.jpg");
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid goldenrod;
+    border-top: 3px solid goldenrod;
+
+}
+
+.banner h1, 
+h2 {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(96, 26, 22);
+    color: goldenrod;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+    flex: row;
+}
+
+.row2 {
+    display: flex;
+    flex: row;
+}
+
+
+.box_pink {
+    background-color: rgb(96, 26, 22);
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: -4;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.box_purple {
+    background-color: rgb(174, 26, 26);
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: -4;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#line_top {
+    border-top: 1px solid goldenrod;
+}
+
+.line_right {
+    border-left: 1px solid goldenrod;
+}
+
+.line_left {
+    border-right: 1px solid goldenrod;
+}
+
+#line_bottom {
+    border-bottom: 1px solid goldenrod;
+}
+
+img {
+
+}
+
+footer p{
+    color: goldenrod;
+    text-align: center;
+}

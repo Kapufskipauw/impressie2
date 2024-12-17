@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Furry Check-in</title>
+        <link rel="stylesheet" href="resources/css/flurry_vragenlijst.css">
+        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <div class="banner">
+            <h1>An Everyday's Furry Check-In</h1>
+            <h2>*~ A Couple of Questions a day, May Keep Worries Away! ~*</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="introduction">
+            <h2>
+                So, Why Doing This Check-In Right Now?
+            </h2>
+            <div class="container">
+                <p class="element">
+                    In a world where we spend more and more time behind our screens, it’s easy to fall into the trap of endless scrolling—also known as doomscrolling. This constant flood of information can drain us and negatively affect our mental well-being. But instead of getting lost in the digital void, we can use that screen time to check in with ourselves. 
+                    <br>
+                    <br> 
+                    A daily check-in is a small yet powerful way to pause, reflect on how we’re feeling, and move forward with intention. It helps us not only focus on what’s happening on the screen but also on what’s happening within us. This way, we can avoid getting caught up in the never-ending stream of content and give ourselves the care and attention we deserve.
+                    <br>
+                    <br> 
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                </p>
+                <img class="element" src="resources/images/glitter_ambience.jpg" alt="A field and threes in angelcore style">
+            </div>
+        </div>
+
+        <form class="survey" action="#" method="post">
+            <!--The Numbers behind the class section represent the nr. of question of the list-->
+            <section class="checkin1">
+                    <label for="feeling" class="q_style">
+                        How do you feel today?  
+                    </label>
+                    <br>
+                    <br>
+                    <div id="feeling_help" class="form_help">
+                        What signs does your body give you? And how do you feel mentally?
+                    </div>
+                    <br>
+                    <input aria-describedby="feeling_help" type="text" class="text" id="feeling" name="feeling" minlength="100" maxlength="500" required>
+            </section>
+
+            <section class="break2">
+                <p class="q_style">
+                    Did you consciously take a break from your screen today?
+                </p>
+    <!--As a response I want to have a "youll get there response, and advice on how to take more breaks~js-->
+                    <input type="radio" id="no" name="breaky" value="no">
+                    <label class="pointer" for="no">No</label>
+                    <br>
+
+    <!--As a response I want to have a "Good job" with good cat picture, and link to "do you wanna learn more about taking breaks etc."~js-->
+                    <input type="radio" id="yes" name="breaky" value="yes">
+                    <label class="pointer" for="yes">Yes</label>
+            </section>
+
+            <section class="frequency3">
+                <p class="q_style">
+                    How times do you loose yourself in scrolling?
+                </p>
+                    <input type="radio" id="daily" name="scrolling" value="daily">
+                    <label class="pointer" for="daily">Almost all day</label>
+                    <br>
+
+                    <input type="radio" id="coupleoftimes" name="scrolling" value="coupleoftimes">
+                    <label class="pointer" for="coupleoftimes">A couple of times a day</label>
+                    <br>
+
+                    <input type="radio" id="sometimes" name="scrolling" value="sometimes">
+                    <label class="pointer" for="sometimes">Sometimes, not so much</label>
+                    <br>
+
+                    <input type="radio" id="never" name="scrolling" value="never">
+                    <label class="pointer" for="never">Almost never!</label>
+            </section>
+
+            <section class="break_act4">
+                    <label for="activities" class="q_style">
+                        What are activities you like to do to take a break from your screen? 
+                    </label>
+                    <br>
+                    <br>
+                    <div class="form_help" id="break_act_help">Name at least three activities.
+                    </div>
+                    <br>
+                    <input aria-describedby="break_act_help" type="text" class="text" id="activities" name="activities" minlength="30" maxlength="250" required>
+            </section>
+
+            <div class="containerq5">
+                <section class="intentions5">
+                    <p class="q_style">
+                        Do you feel like your screen time today has been intentional or more out of habit?
+                    </p>
+                        <input type="radio" id="intentional" name="intention" value="intentional">
+                        <label class="pointer" for="intentional">It was intentional, I used it with a clear purpose.</label>
+                        <br>
+
+                        <input type="radio" id="mix" name="intention" value="mix">
+                        <label class="pointer" for="mix">It was a mix of both.</label>
+                        <br>
+
+                        <input type="radio" id="habit" name="intention" value="habit">
+                        <label class="pointer" for="habit">Mostly out of habit.</label>
+                        <br>
+
+                        <input type="radio" id="nocontrol" name="intention" value="nocontrol">
+                        <label class="pointer" for="nocontrol">I didn’t really think about it, it just happened.</label>
+                </section>
+                <img src="resources/images/cat of luck.jpg" alt="Cat of Fortune" class="q5item2">
+            </div>
+
+
+            <section class="reconnect6">
+                    <label for="reconnect" class="q_style">
+                        What is one small habit you could introduce to reduce your screen time and reconnect with the world around you?
+                    </label>
+                    <br>
+                    <input aria-describedby="reconnect_help" type="text" class="text" id="reconnect" name="reconnect" minlength="20" maxlength="100" required>
+            </section>
+
+            <section class="missed7">
+                <label for="missed" class="q_style">
+                    What’s one meaningful experience or connection you’ve missed out on today because of screen time?
+                </label>
+                <br>
+                <br>
+                <div class="form_help" id="missed_help">
+                    You can add more examples if you want :-)
+                </div>
+                <br>
+                <input aria-describedby="missed_help" type="text" class="text" id="missed" name="missed" minlength="30" maxlength="150" required>  
+            </section>
+
+            <section class="grateful8">
+                <label for="grateful" class="q_style">
+                    What is one thing you did today, away from your screen, that you’re grateful for?
+                </label>
+                <br>
+                <br>
+                <div class="form_help" id="grateful_help">
+                    You can type more than one!
+                </div>
+                <br>
+                <input aria-desribedby="grateful_help" type="text" class="text" id="grateful" name="grateful" minlength="20" maxlength="200" required>
+            </section>
+
+            <section class="conclude9">
+                <label for="conclude" class="q_style">
+                    After reflecting on these questions, what’s one thing you plan to be more mindful of or change in your daily routine moving forward?
+                </label>
+                <br>
+                <br>
+                <div class="form_help" id="conclude_help">
+                    Be as specific as possible, make it small!
+                </div>
+                <br>
+                <input aria-describedby="conclude_help" type="text" class="text" id="conclude" name="conclude" minlength="10" maxlength="50" required>
+            </section>
+
+            <section class="lastthoughts10">
+                <label for="lastthoughts" class="q_style">
+                    Here you can add your last thoughts. 
+                </label>
+                <br>
+                <br>
+                <div class="form_help" id="lastthoughts_help">
+                    If you have any ofc...
+                </div>
+                <br>
+                <input aria-describedby="lastthoughts_help" type="text" class="text" id="lastthoughts" name="lastthoughts" maxlength="100">
+            </section>
+            <br>
+
+            <section class="button">
+                <input type="submit" value="Save to journal!">
+            </section>
+        </form>
+    </main>
+
+    <footer>
+            <img src="resources/images/kittymetvleugels.jpg" alt="A kitten with fairy wings">
+            <ul class="footernav">
+                <li>About</li>
+                <li>Question Suggestions</li>
+                <li>Contact</li>
+           </ul>
+    </footer>
+
+</html>

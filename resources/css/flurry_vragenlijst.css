@@ -1,0 +1,195 @@
+html {
+    background-color: rgb(226, 217, 235);
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+}
+
+section {
+    padding-bottom: 3rem; 
+}
+
+.banner {
+    background-image: url('../images/Katglitters.jpg');
+    height: 500px; 
+}
+
+.banner h1 {
+    padding: 3.700rem;
+    font-family: "Handjet", sans-serif;
+    font-size: 4.125rem;
+    color: rgb(37, 7, 37);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(242, 255, 0), 0 0 1em blue, 0 0 0.2em blueviolet;
+}
+
+.banner h2 {
+    text-align: center;
+    padding-top: 10rem;
+    text-shadow: 1px 1px 2px rgb(242, 255, 0), 0 0 1em blue, 0 0 0.2em blueviolet;
+}
+
+/* waarom komt de dotted border niet voor de background color van de introduction container? */
+
+.introduction {
+    margin: 3.125rem;
+    padding: 0.3rem;
+    border: 0.25rem dotted rgb(216, 165, 185);
+    border-radius: 4px;
+    z-index: 1;
+    text-align: center;
+}
+
+/* waarom wordt de introductie p en img niet kleiner wanneer het scherm verkleind? */
+
+.container {  
+    background-color: rgb(127, 255, 212, 0.5);
+    display: flex;
+    flex-shrink: 2;
+}
+
+.introduction h2 {
+    padding-left: 2rem;
+    color: rgb(111, 122, 184); 
+}
+
+.introduction p {
+    height: 14rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: rgb(114, 98, 144);
+}
+
+.introduction img {
+    height: 14rem;
+    width: auto;
+    padding: 2rem;
+    z-index: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.survey {
+    margin: 3.125rem;
+    padding: 0.3rem;
+}
+
+.survey .q_style {
+    font-family: "Handjet", sans-serif;
+    font-size: 3rem; 
+}
+
+.survey .form_help {
+    color: rgb(74, 198, 243);
+}
+.survey .text {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 228, 196,0.25);
+    border-color: rgb(182, 246, 225);
+    font-family: "Noto Serif", serif;
+    font-size: 1rem;
+}
+
+.survey .checkin1 {
+    color: rgb(181, 111, 184);
+}
+
+.survey .break2 {
+    color: rgb(165, 184, 111);
+    
+}
+
+.survey .frequency3 {
+    color: rgb(111, 161, 184);
+    
+}
+
+.survey .break_act4 {
+    color: rgb(184, 111, 163);
+}
+
+.survey .intentions5 {
+    color: rgb(171, 111, 184);
+    
+}
+
+.containerq5 {
+    display: flex;
+}
+
+.containerq5 img {
+    height: 300px;
+    width: auto;
+}
+
+.containerq5 .intentions5 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.survey .reconnect6 {
+    color: rgb(128, 111, 184);
+}
+
+.survey .missed7 {
+    color: rgb(184, 165, 111);
+}
+
+.survey .grateful8 {
+    color: rgb(111, 184, 151);
+}
+
+.survey .conclude9 {
+    color: rgb(184, 111, 139);
+}
+
+.survey .lastthoughts10 {
+    color: rgb(184, 111, 168);
+}
+
+.button input {
+    height: 5.5rem;
+    width: auto;
+    background-color: rgb(228, 167, 208);
+    border: 0.25rem solid rgb(248, 96, 154);
+    border-radius: 50rem;
+    font-family: "Handjet", sans-serif;
+    font-size: 4.125rem;
+    color: rgb(37, 7, 37);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(242, 255, 0), 0 0 1em blue, 0 0 0.2em blueviolet;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(245, 190, 200);
+    padding: 20px;
+    border: 0.25rem dotted  rgb(127, 255, 212, 0.5);
+}
+
+footer img {
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+.footernav {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    gap: 1rem;
+    list-style: none; 
+    font-family: "Handjet", sans-serif;
+    font-size: 2.125rem;
+    color: rgb(37, 7, 37);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(242, 255, 0), 0 0 1em blue, 0 0 0.2em blueviolet;
+} 
+
+.footernav li {
+    cursor: pointer;
+    flex-grow: 1;
+    margin-top: 10px;
+
+}
